@@ -1,0 +1,68 @@
+Script started on 2020-02-17 09:21:20+0530
+]0;dell@Dell: ~/ceccs18c22/cs232/1702[01;32mdell@Dell[00m:[01;34m~/ceccs18c22/cs232/1702[00m$ cat abc.txt
+cat: abc.txt: No such file or directory
+]0;dell@Dell: ~/ceccs18c22/cs232/1702[01;32mdell@Dell[00m:[01;34m~/ceccs18c22/cs232/1702[00m$ ls
+work.txt
+]0;dell@Dell: ~/ceccs18c22/cs232/1702[01;32mdell@Dell[00m:[01;34m~/ceccs18c22/cs232/1702[00m$ ls-l
+ls-l: command not found
+]0;dell@Dell: ~/ceccs18c22/cs232/1702[01;32mdell@Dell[00m:[01;34m~/ceccs18c22/cs232/1702[00m$ ls -l
+total 0
+-rw-r--r-- 1 dell dell 0 Feb 17 09:21 work.txt
+]0;dell@Dell: ~/ceccs18c22/cs232/1702[01;32mdell@Dell[00m:[01;34m~/ceccs18c22/cs232/1702[00m$ ls [K[K[Kls -lt
+total 0
+-rw-r--r-- 1 dell dell 0 Feb 17 09:21 work.txt
+]0;dell@Dell: ~/ceccs18c22/cs232/1702[01;32mdell@Dell[00m:[01;34m~/ceccs18c22/cs232/1702[00m$ ls -ltr
+total 0
+-rw-r--r-- 1 dell dell 0 Feb 17 09:21 work.txt
+]0;dell@Dell: ~/ceccs18c22/cs232/1702[01;32mdell@Dell[00m:[01;34m~/ceccs18c22/cs232/1702[00m$ ls -lk
+total 0
+-rw-r--r-- 1 dell dell 0 Feb 17 09:21 work.txt
+]0;dell@Dell: ~/ceccs18c22/cs232/1702[01;32mdell@Dell[00m:[01;34m~/ceccs18c22/cs232/1702[00m$ ls ab*-d
+ls: cannot access 'ab*-d': No such file or directory
+]0;dell@Dell: ~/ceccs18c22/cs232/1702[01;32mdell@Dell[00m:[01;34m~/ceccs18c22/cs232/1702[00m$ alias ll= 'ls -l'
+bash: alias: ls -l: not found
+]0;dell@Dell: ~/ceccs18c22/cs232/1702[01;32mdell@Dell[00m:[01;34m~/ceccs18c22/cs232/1702[00m$ alias ll='ls-al'
+]0;dell@Dell: ~/ceccs18c22/cs232/1702[01;32mdell@Dell[00m:[01;34m~/ceccs18c22/cs232/1702[00m$ ll can host and review code, manage projects, and build software alongside 40 million developers.
+ls-al: command not found
+]0;dell@Dell: ~/ceccs18c22/cs232/1702[01;32mdell@Dell[00m:[01;34m~/ceccs18c22/cs232/1702[00m$ unalias ll
+]0;dell@Dell: ~/ceccs18c22/cs232/1702[01;32mdell@Dell[00m:[01;34m~/ceccs18c22/cs232/1702[00m$ cat abc.txt
+cat: abc.txt: No such file or directory
+]0;dell@Dell: ~/ceccs18c22/cs232/1702[01;32mdell@Dell[00m:[01;34m~/ceccs18c22/cs232/1702[00m$ cat .[K>abc.txt
+^C
+]0;dell@Dell: ~/ceccs18c22/cs232/1702[01;32mdell@Dell[00m:[01;34m~/ceccs18c22/cs232/1702[00m$ sort -n abc.txt
+]0;dell@Dell: ~/ceccs18c22/cs232/1702[01;32mdell@Dell[00m:[01;34m~/ceccs18c22/cs232/1702[00m$ sort -nk7 abc.txt
+]0;dell@Dell: ~/ceccs18c22/cs232/1702[01;32mdell@Dell[00m:[01;34m~/ceccs18c22/cs232/1702[00m$ sort -rnk7 abc.txt
+]0;dell@Dell: ~/ceccs18c22/cs232/1702[01;32mdell@Dell[00m:[01;34m~/ceccs18c22/cs232/1702[00m$ cut -f3 abc.txt
+]0;dell@Dell: ~/ceccs18c22/cs232/1702[01;32mdell@Dell[00m:[01;34m~/ceccs18c22/cs232/1702[00m$ cut -f -3
+^C
+]0;dell@Dell: ~/ceccs18c22/cs232/1702[01;32mdell@Dell[00m:[01;34m~/ceccs18c22/cs232/1702[00m$ cut P[Kf1-3
+cut: you must specify a list of bytes, characters, or fields
+Try 'cut --help' for more information.
+]0;dell@Dell: ~/ceccs18c22/cs232/1702[01;32mdell@Dell[00m:[01;34m~/ceccs18c22/cs232/1702[00m$ cut f1 -3
+cut: invalid option -- '3'
+Try 'cut --help' for more information.
+]0;dell@Dell: ~/ceccs18c22/cs232/1702[01;32mdell@Dell[00m:[01;34m~/ceccs18c22/cs232/1702[00m$ cut f1-3
+cut: you must specify a list of bytes, characters, or fields
+Try 'cut --help' for more information.
+]0;dell@Dell: ~/ceccs18c22/cs232/1702[01;32mdell@Dell[00m:[01;34m~/ceccs18c22/cs232/1702[00m$ cut f3-
+cut: you must specify a list of bytes, characters, or fields
+Try 'cut --help' for more information.
+]0;dell@Dell: ~/ceccs18c22/cs232/1702[01;32mdell@Dell[00m:[01;34m~/ceccs18c22/cs232/1702[00m$ cut f3 -d ' '
+cut: you must specify a list of bytes, characters, or fields
+Try 'cut --help' for more information.
+]0;dell@Dell: ~/ceccs18c22/cs232/1702[01;32mdell@Dell[00m:[01;34m~/ceccs18c22/cs232/1702[00m$ join r.H.txt r.t2.txt
+join: r.H.txt: No such file or directory
+]0;dell@Dell: ~/ceccs18c22/cs232/1702[01;32mdell@Dell[00m:[01;34m~/ceccs18c22/cs232/1702[00m$ join -1 2 -2 3  r.t1.txt r.t2.txt
+join: r.t1.txt: No such file or directory
+]0;dell@Dell: ~/ceccs18c22/cs232/1702[01;32mdell@Dell[00m:[01;34m~/ceccs18c22/cs232/1702[00m$ grep -c
+Usage: grep [OPTION]... PATTERN [FILE]...
+Try 'grep --help' for more information.
+]0;dell@Dell: ~/ceccs18c22/cs232/1702[01;32mdell@Dell[00m:[01;34m~/ceccs18c22/cs232/1702[00m$ grep -w
+Usage: grep [OPTION]... PATTERN [FILE]...
+Try 'grep --help' for more information.
+]0;dell@Dell: ~/ceccs18c22/cs232/1702[01;32mdell@Dell[00m:[01;34m~/ceccs18c22/cs232/1702[00m$ grep "search" abc.txt
+]0;dell@Dell: ~/ceccs18c22/cs232/1702[01;32mdell@Dell[00m:[01;34m~/ceccs18c22/cs232/1702[00m$ gedit report.txt
+]0;dell@Dell: ~/ceccs18c22/cs232/1702[01;32mdell@Dell[00m:[01;34m~/ceccs18c22/cs232/1702[00m$ exit
+exit
+
+Script done on 2020-02-17 10:15:40+0530
