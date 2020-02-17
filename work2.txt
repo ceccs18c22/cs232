@@ -1,0 +1,79 @@
+Script started on 2020-02-17 11:10:05+0530
+]0;dell@Dell: ~/ceccs18c22/cs232/1702[01;32mdell@Dell[00m:[01;34m~/ceccs18c22/cs232/1702[00m$ ifconfig -a
+enp1s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.0.215  netmask 255.255.255.0  broadcast 192.168.0.255
+        inet6 fe80::51b:f401:edf7:ad6a  prefixlen 64  scopeid 0x20<link>
+        ether e4:54:e8:a9:06:f0  txqueuelen 1000  (Ethernet)
+        RX packets 294626  bytes 186493706 (186.4 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 62870  bytes 5534567 (5.5 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 36828  bytes 2842165 (2.8 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 36828  bytes 2842165 (2.8 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlp2s0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether ac:d5:64:51:de:fb  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+]0;dell@Dell: ~/ceccs18c22/cs232/1702[01;32mdell@Dell[00m:[01;34m~/ceccs18c22/cs232/1702[00m$ route -n
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+169.254.0.0     0.0.0.0         255.255.0.0     U     1000   0        0 enp1s0
+192.168.0.0     0.0.0.0         255.255.255.0   U     100    0        0 enp1s0
+]0;dell@Dell: ~/ceccs18c22/cs232/1702[01;32mdell@Dell[00m:[01;34m~/ceccs18c22/cs232/1702[00m$ route add default gw 192.168.0,[K.2
+SIOCADDRT: Operation not permittedhttps://support.google.com/accounts/answer/27441?hl=en
+]0;dell@Dell: ~/ceccs18c22/cs232/1702[01;32mdell@Dell[00m:[01;34m~/ceccs18c22/cs232/1702[00m$ ping 192.168.0.2
+PING 192.168.0.2 (192.168.0.2) 56(84) bytes of data.
+64 bytes from 192.168.0.2: icmp_seq=1 ttl=64 time=0.366 ms
+64 bytes from 192.168.0.2: icmp_seq=2 ttl=64 time=0.368 ms
+64 bytes from 192.168.0.2: icmp_seq=3 ttl=64 time=0.431 ms
+64 bytes from 192.168.0.2: icmp_seq=4 ttl=64 time=0.796 ms
+64 bytes from 192.168.0.2: icmp_seq=5 ttl=64 time=0.350 ms
+64 bytes from 192.168.0.2: icmp_seq=6 ttl=64 time=0.395 ms
+64 bytes from 192.168.0.2: icmp_seq=7 ttl=64 time=0.607 ms
+64 bytes from 192.168.0.2: icmp_seq=8 ttl=64 time=0.631 ms
+
+64 bytes from 192.168.0.2: icmp_seq=9 ttl=64 time=0.640 ms
+64 bytes from 192.168.0.2: icmp_seq=10 ttl=64 time=0.417 ms
+64 bytes from 192.168.0.2: icmp_seq=11 ttl=64 time=0.557 ms
+^C
+--- 192.168.0.2 ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 10241ms
+rtt min/avg/max/mdev = 0.350/0.505/0.796/0.142 ms
+]0;dell@Dell: ~/ceccs18c22/cs232/1702[01;32mdell@Dell[00m:[01;34m~/ceccs18c22/cs232/1702[00m$ cat [K/etc/resolv.config[K[K
+bash: cat/etc/resolv.conf: No such file or directory
+]0;dell@Dell: ~/ceccs18c22/cs232/1702[01;32mdell@Dell[00m:[01;34m~/ceccs18c22/cs232/1702[00m$ cat /etc/resolv.conf
+# This file is managed by man:systemd-resolved(8). Do not edit.
+#
+# This is a dynamic resolv.conf file for connecting local clients to the
+# internal DNS stub resolver of systemd-resolved. This file lists all
+# configured search domains.
+#
+# Run "systemd-resolve --status" to see details about the uplink DNS servers
+# currently in use.
+#
+# Third party programs must not access this file directly, but only through the
+# symlink at /etc/resolv.conf. To manage man:resolv.conf(5) in a different way,
+# replace this symlink by a static file or a different symlink.
+#https://support.google.com/accounts/answer/27441?hl=en
+# See man:systemd-resolved.service(8) for details about the supported modes of
+# operation for /etc/resolv.conf.
+
+nameserver 127.0.0.53
+options edns0
+search example.org
+]0;dell@Dell: ~/ceccs18c22/cs232/1702[01;32mdell@Dell[00m:[01;34m~/ceccs18c22/cs232/1702[00m$ echo "nameserver 1.1.1.1" >>resolv.conf
+]0;dell@Dell: ~/ceccs18c22/cs232/1702[01;32mdell@Dell[00m:[01;34m~/ceccs18c22/cs232/1702[00m$ exit
+exit
+
+Script done on 2020-02-17 11:14:34+0530
