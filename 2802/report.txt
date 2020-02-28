@@ -1,0 +1,56 @@
+CEC CS 18 c22
+habel james george
+
+--------------------------------
+#1: Aim/task 
+---------------------------------
+LINUX COMMANDS
+Command/Shell script/Program name
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+hello hi..this is a sample work of uploading to server using sftp
+
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+
+-------------------
+Remarks if any:
+
+learned ftp usage
+
+
+
+-------------------------------------
+-------------------------------------
+#2: Scripting task continued
+---------------------------------
+
+Command/Shell Script/Program Name
+---------------------------------
+
+Input: Downloaded pdf file of s2 2019 results
+       result_CHN.pdf
+       pdftotext -layout result_CHN.pdf
+       grep CHN18CS "result_CHN.txt">S2Cres.txt
+       cat S1Cres.txt 
+       gedit sample.py
+
+--------------------------------
+Output:result_CHN.txt
+       S2Cres.txt
+       calculated the cgpa:file:sample.py
+
+
+
+Remarks:Completed the task 2.Didnt receive the document with name and register number.
+        Displayed the register number with sgpa and number of subjects failed
+
+
+
+
+
