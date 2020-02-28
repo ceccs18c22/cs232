@@ -1,0 +1,62 @@
+Script started on Friday 28 February 2020 03:29:55 PM IST
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/28-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/28-02$ exit[K[K[K[Ksftp cs18c03@192.168.0.30[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Khttp[K[K[K[Khtm[K[K[Kgedit index,[K.html
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/28-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/28-02$ gedit index.html[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Krun [Klocalse[K[K[K[K[K[K[K[K[K[Ksudo rumn[K[Kn [Ksftp cs18c03@192.168.0.30pt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pcript work.txtfpt cs18c03@192.168.0.30tp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ksudo run [Ksudo run [Ksudo run [Ksftp cs18c03@192.168.0.30pt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pcript work.txtls[Kcd 17-02[1P17-02 cs232[K[K[K[K[K[K[K[Kgedit index.html
+P ^C
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/28-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/28-02$ PWD
+PWD: command not found
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/28-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/28-02$ pwd
+/home/s4c1/ceccs18c03/cs232/28-02
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/28-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/28-02$ mask
+No command 'mask' found, did you mean:
+ Command 'mawk' from package 'mawk' (main)
+ Command 'task' from package 'task' (universe)
+ Command 'mark' from package 'nmh' (universe)
+ Command 'mark' from package 'mailutils-mh' (universe)
+mask: command not found
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/28-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/28-02$ if com[Knfig
+> exit
+> exit()
+> ^C
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/28-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/28-02$ if config; exit; exit()mask[K[1PpwdPWDgedit index.html
+^C
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/28-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/28-02$ gedit index.htmlif config; exit; exit()[C\[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K -a
+> -a
+> if config -a; -a[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ketho[K0
+> find eth)[K0
+> if config -a; -a; eth0; find eth0[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K^C
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/28-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/28-02$ if config -a; -a; eth0; find
+d eth0[K[K[K[K[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgedit index.html[Kifconfig -a
+eth0      Link encap:Ethernet  HWaddr 00:15:58:19:23:0b  
+          inet addr:192.168.0.210  Bcast:192.168.1.255  Mask:255.255.254.0
+          inet6 addr: fe80::215:58ff:fe19:230b/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:258815 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:64456 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:78736683 (78.7 MB)  TX bytes:9550621 (9.5 MB)
+          Interrupt:17 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:12 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:12 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:748 (748.0 B)  TX bytes:748 (748.0 B)
+
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/28-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/28-02$ ifconfig -a config -a; -a; eth0; find
+d eth0[A
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/28-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/28-02$ [11Pgedit index.html
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/28-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/28-02$ gedit index.html[K[K[K[K[K[K[K[K[K[Kreport.txt
+^C
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/28-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/28-02$ gedit report.txtindex.html
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c03/cs232/28-02s4c1@lab2-AcerPower-Series:~/ceccs18c03/cs232/28-02$ exit 
+exit
+
+Script done on Friday 28 February 2020 04:52:50 PM IST
