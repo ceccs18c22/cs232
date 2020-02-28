@@ -1,0 +1,52 @@
+CEC CS 18 c22
+habel james george
+
+--------------------------------
+#1: Aim/task 
+---------------------------------
+LINUX COMMANDS
+Command/Shell script/Program name
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+ls -l
+ls -lt
+ls -ltr
+ls -lk
+ls ab*-d
+ls alias ll='ls-al'
+ll
+unalias ll
+cat abc.txt
+cat>abc.txt
+sort -n abc.txt
+sort -rnk7 abc.txt
+cut -f3 abc.txt
+cut -f-3
+cut f1-3
+
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+
+-------------------
+Remarks if any:
+
+learned basic linux commands and executed them
+
+
+
+-------------------------------------
+-------------------------------------
+#2:
+
+#3:
+
+#4:
+
+#5:
+
+
